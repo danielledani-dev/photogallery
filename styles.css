@@ -56,22 +56,184 @@ body {
     background-color: #ffffff;
 }
 h1 {
-    width: 100%;
     color: #007d7b;
     text-transform: uppercase;
     font-size: 3em;
     text-align: center;
     font-weight: bold;
+    padding: .25em;
 }
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-transform: uppercase;
     background-color: #000000;
-    width: 105%;
-    align-items: center;
+    justify-items: center;
+    padding: 3em 1.5em;
+    margin-left: -10px;
+    font-weight: bold;
 }
 li a {
     text-decoration: none;
     color: #ffffff;
+    font-size: 1.5em;
+}
+nav {
+    position: relative;
+    align-items: center;
+}
+[href="#top"] {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    outline: solid;
+    outline-width: 3px;
+    padding: .4em;
+}
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: .75em;
+}
+#hello {
+    margin: .75em .5em;
+    font-size: 1.25em;
+}
+p {
+    font-size: 1.25em;
+    margin: .75em .5em .75em .5em;
+    line-height: 1.25;
+}
+img {
+    margin: .5em 2em;
+}
+#chile {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -2.5em;
+}
+#guatemala {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -17em;
+}
+#hawaii {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 3em;
+}
+#iran {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 39em;
+}
+#ireland {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 38em;
+}
+#italy {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 2.5em;
+}
+#moab {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 2.75em;
+}
+#rocky {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 17.9em;
+}
+#swiss {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 17.5em;
+}
+#uk {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 17.5em;
+}
+#usa {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    bottom: 17.5em;
+}
+#wyoming {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 17.5em;
+}
+#your-info {
+    display: none;
+    visibility: hidden;
+}
+#contact {
+    margin-top: 0em;
+    padding: .5em .5em;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+label[for=your-name], label[for=your-email] {
+    margin-right: 21em;
+    text-transform: uppercase;
+    font-size: .75em;
+}
+#your-name, #your-email, #your-message {
+    display: grid;
+    margin: 0px 80px 20px 80px;
+    padding: 5px;
+    width: 300px;
+    align-items: center;
+    border-radius: .1em;
+    font-size: .75em;
+}
+::placeholder {
+    color: #007d7b;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+label[for=your-message] {
+    margin-right: 19em;
+    text-transform: uppercase;
+    font-size: .75em;
+}
+#my-submit {
+    color: white;
+    text-transform: uppercase;
+    background-color: #007d7b;
+    width: 200px;
+    border-radius: 2em;
+    padding: 5px;
+    font-weight: bold;
+}
+footer {
+    background-color: #000000;
+    margin-top: 0em;
+    padding: 3em;
+    color: white;
+    text-transform: uppercase;
 }
