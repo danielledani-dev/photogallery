@@ -237,3 +237,233 @@ footer {
     color: white;
     text-transform: uppercase;
 }
+@media screen and (min-width:880px) {
+    body {
+        width: 880px;
+        margin-bottom: 0;
+    }
+    #gallery {
+        display: grid;
+        position: relative;
+        grid-template-columns: 49% 49%;
+        grid-template-rows: auto auto auto auto auto auto;
+        grid-column-gap: 0%;
+        justify-content: left;
+        margin-left: -23px;
+        margin-top: 75px;
+        padding-top: 75px;
+    }
+    #gallery > h2 {
+        display: flex;
+        position: absolute;
+        top: -2em;
+        left: 11.1em;
+        padding: 5px;
+    }
+    #gallery > p {
+        display: flex;
+        position: absolute;
+        top: -1em;
+        padding: 30px 0px 0px 1.2em;
+    }
+    #chile-img, #chile {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    #chile {
+        position: relative;
+        top: -13%;
+        left: 5%;
+    }
+    #guatemala-img, #guatemala{
+        grid-column: 2;
+        grid-row: 1;
+    }
+    #guatemala {
+        position: relative;
+        top: -88%;
+        right: -8%;
+    }
+    #hawaii-img, #hawaii {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #hawaii {
+        position: relative;
+        top: -5%;
+        left: 5%;
+    }
+    #iran-img, #iran {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    #iran {
+        position: relative;
+        top: -93%;
+        right: -5%;
+    }
+    #ireland-img, #ireland {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    #ireland {
+        position: relative;
+        top: -93%;
+        right: -5%;
+    }
+    #italy-img, #italy {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    #italy {
+        position: relative;
+        top: -6%;
+        right: -3%;
+    }
+    #moab-img, #moab {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    #moab {
+        position: relative;
+        top: -12%;
+        left: 10%;
+    }
+    #rocky-img, #rocky {
+        grid-column: 2;
+        grid-row: 4;
+    }
+    #rocky {
+        position: relative;
+        top: -90%;
+        left: 7%;
+    }
+    #swiss-img, #swiss {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    #swiss {
+        position: relative;
+        top: -90%;
+        left: 10%;
+    }
+    #uk-img, #uk {
+        grid-column: 2;
+        grid-row: 5;
+    }
+    #uk {
+        position: relative;
+        top: -88%;
+        right: -6%;
+    }
+    #usa-img, #usa {
+        grid-column: 1;
+        grid-row: 6;
+    }
+    #usa {
+        position: relative;
+        top: -88%;
+        right: -6%;
+    }
+    #wyoming-img, #wyoming {
+        grid-column: 2;
+        grid-row: 6;
+    }
+    #wyoming {
+        position: relative;
+        top: -88%;
+        right: -6%;
+    }
+    #contact {
+        position: relative;
+    }
+    #your-name, #your-email, #your-message {
+        align-items: center;
+        position: relative;
+        width: 600px;
+        margin-left: 14%;
+    }
+    #my-submit {
+        width: 300px;
+    }
+    label[for=your-name], label[for=your-email], label[for=your-message] {
+        position: relative;
+        margin-left: -37%;
+    }
+    footer {
+        padding: 1em 15em;
+        text-align: center;
+    }
+}
+@media screen and (min-width:1300px) {
+    body {
+        width: 1300px;
+    }
+    ul {
+        padding: 3em 14em;
+        margin-right: -14em;
+        padding-left: 49em;
+    }
+    #gallery > h2 {
+        left: 17.9em;
+    }
+    #gallery {
+        grid-template-columns: 30% 30% 30%;
+        gap: 1.75em;
+    }
+    #hawaii-img, #hawaii {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    #hawaii {
+        top: -13%;
+        left: 5%
+    }
+    #iran-img, #iran {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    #ireland-img, #ireland {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    #italy-img, #italy {
+        grid-column: 3;
+        grid-row: 2
+    }
+    #moab-img, #moab {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    #rocky-img, #rocky {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    #swiss-img, #swiss {
+        grid-column: 3;
+        grid-row: 3
+    }
+    #uk-img, #uk {
+        grid-column: 1;
+        grid-row: 4;
+    }
+    #usa-img, #usa {
+        grid-column: 2;
+        grid-row: 4;
+    }
+    #wyoming-img, #wyoming {
+        grid-column: 3;
+        grid-row: 4;
+    }
+    #your-name, #your-email, #your-message {
+        align-items: center;
+        width: 800px;
+        margin-left: 19em;
+    }
+    label[for=your-name], label[for=your-email], label[for=your-message] {
+        margin-left: -500px;
+    }
+    #my-submit {
+        width: 500px;
+    }
+}
